@@ -5,10 +5,10 @@ As citizen, tourist and potential landlord,
 I was curious what stories AirBnB data reveals.
 
 Specifically, I asked those two questions:
-- 1. How looks the typical guest using AirBnB services? Is it foreigner or countryman? Will data reveal a clear segment in which landlords could specialize?
-- 2. Is Airbnb used primary as home sharing with tourists? Or as a business where entire flats are dedicated to tourists disturbing local housing market?
+1. How looks the typical guest using AirBnB services? Is it foreigner or countryman? Will data reveal a clear segment in which landlords could specialize?
+2. Is Airbnb used primary as home sharing with tourists? Or as a business where entire flats are dedicated to tourists disturbing local housing market?
 
-![ratio whole apartment rented](ratio_whole_apartment_rented.png)
+![ratio entire apartment rented](ratio_entire_apartment_rented.png)
 ## Data
 Data of the following cities was analyzed and compared:
 - Prague
@@ -20,9 +20,9 @@ Data for each city was gained from [insideairbnb.com](http://insideairbnb.com/ge
    
 ## Usage
 To reproduce results: 
-- 1. Download the repository 
-- 2. Download the data from [insideairbnb.com](http://insideairbnb.com/get-the-data.html) Files listings.csv and reviews.csv must be placed into the folder `Dataset/City`. For Geneva it's `Dataset/Geneva/listings.csv` and `Dataset/Geneva/reviews.csv`
-- 3. Execute `Stories Hidden in AirBnB Data.ipynb` 
+1. Download the repository 
+2. Download the data from [insideairbnb.com](http://insideairbnb.com/get-the-data.html) Files listings.csv and reviews.csv must be placed into the folder `Dataset/City`. For Geneva it's `Dataset/Geneva/listings.csv` and `Dataset/Geneva/reviews.csv`
+3. Execute `Stories Hidden in AirBnB Data.ipynb` 
  
 ## Libraries used
 Python 3
