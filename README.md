@@ -1,39 +1,37 @@
 # stories_hidden_in_airbnb_data
-The project and its repository is in development
 
 ## Project description
-I was curious what stories AirBnB data tells about those cities,
-and whether those data can help landlords to increase their revenues and tentant to minimize their expenses.
+As citizen, tourist and potential landlord,
+I was curious what stories AirBnB data reveals.
 
-I'm starting with interrest to find answer to the following questions:
-- How looks the typical guest using AirBnB services? Is it foreigner or countryman? What is typical age?
-- When the most people visit each city?
-- What are the average prices per night?
-- What is average realized revenue per month?   
-- In which month is the most profitable to be landlord? In which month is best to do reconstructions?
-- In which month is the most cost effective to visit the city as guest?
+Specifically, I asked those two questions:
+- 1. How looks the typical guest using AirBnB services? Is it foreigner or countryman? Will data reveal a clear segment in which landlords could specialize?
+- 2. Is Airbnb used primary as home sharing with tourists? Or as a business where entire flats are dedicated to tourists disturbing local housing market?
 
-Data of the following cities will be analyzed and compared:
+## Data
+Data of the following cities was analyzed and compared:
 - Prague
 - Munich
 - Zurich
 - San Francisco
 
-Data for each city were gained from [insideairbnb.com](http://insideairbnb.com/get-the-data.html)
-
-To exclude differences caused by variety in listing only the following accomodations will be considered:
-   - city center, apartment, 2 guests, entire room, 1x bedroom, 1xbed, 1x private bath
+Data for each city was gained from [insideairbnb.com](http://insideairbnb.com/get-the-data.html)
    
 ## Usage
- - The project and its repository is in development. After it's finished:
- - Results will be published on [my blog](https://jmarcan.github.io/)
- - You can reproduce results by downloading the repo and executing `Stories Hidden in AirBnB Data.ipynb` 
+To reproduce results: 
+- 1. Download the repository 
+- 2. Download the data from [insideairbnb.com](http://insideairbnb.com/get-the-data.html) Files listings.csv and reviews.csv must be placed into the folder `Dataset/City`. For Geneva it's `Dataset/Geneva/listings.csv` and `Dataset/Geneva/reviews.csv`
+- 3. Execute `Stories Hidden in AirBnB Data.ipynb` 
  
 ## Libraries used
 Python 3
 - pandas
 - matplotlib
+- gender_guesser
 
 ## Files in the repository
 - `Code/Stories Hidden in AirBnB Data.ipynb`: contains code analyzing the data with its results
+
+## Project outcomes
+Results are published on [my blog](https://jmarcan.github.io/jekyll/update/2020/01/25/Stories-Hidden-In-AirBnB-Data.html)
 
