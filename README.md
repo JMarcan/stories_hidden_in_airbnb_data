@@ -8,6 +8,7 @@ Specifically, I asked those two questions:
 - 1. How looks the typical guest using AirBnB services? Is it foreigner or countryman? Will data reveal a clear segment in which landlords could specialize?
 - 2. Is Airbnb used primary as home sharing with tourists? Or as a business where entire flats are dedicated to tourists disturbing local housing market?
 
+![ratio whole apartment rented](ratio_whole_apartment_rented.png)
 ## Data
 Data of the following cities was analyzed and compared:
 - Prague
