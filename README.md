@@ -34,5 +34,7 @@ Python 3
 - `Code/Stories Hidden in AirBnB Data.ipynb`: contains code analyzing the data with its results
 
 ## Project outcomes
+
+Seems AirBnB is becoming more professional business platform, than platform for sharing unused spaces with visitors.
 Results are published on [my blog](https://jmarcan.github.io/jekyll/update/2020/01/25/Stories-Hidden-In-AirBnB-Data.html)
 
